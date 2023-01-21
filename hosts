@@ -1,2 +1,2 @@
 [alk]
-alkdemo ansible_host=34.168.223.231 ansible_user=asiemion ansible_connection=ssh ansible_private_key_file=/Users/andrzej/Documents/Universities/ALK/2022/20230121-automation/tf/ubuntu
+alkdemo ansible_host=34.168.223.231 ansible_user=asiemion ansible_connection=ssh ansible_private_key_file=/path-to-priv-key
