@@ -1,0 +1,10 @@
+---
+- hosts: all 
+  become: true
+
+  roles: 
+    - role: roles/system
+
+    - role: geerlingguy.pip
+
+    - role: geerlingguy.docker

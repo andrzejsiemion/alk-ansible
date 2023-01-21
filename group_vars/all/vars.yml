@@ -1,0 +1,6 @@
+username: asiemion
+packages:
+  - vim
+  - htop
+
+shell: /usr/bin/bash
