@@ -8,3 +8,9 @@
     - role: geerlingguy.pip
 
     - role: geerlingguy.docker
+
+  tasks:
+    - name: Uruchomienie nginxa w dockerze
+      become: true
+      command:  docker run --name mynginx1 -p 80:80 -d nginx
+        
